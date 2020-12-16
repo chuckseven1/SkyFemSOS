@@ -49,6 +49,9 @@ registerPatcher<Locals>({
     label: 'zFem Patcher',
     templateUrl: `${patcherUrl}/partials/settings.html`,
     hide: true,
+    /**
+     * @todo add some settings maybe?
+     */
     defaultSettings: {
       // No settings
     },
@@ -92,10 +95,13 @@ registerPatcher<Locals>({
                   SOS_Addon_Gender.Male
               ) {
                 const addon = eid.substring(4, eid.length - 7);
-                // Ignore "no futa" addon
+                // TODO: Add setting for ignoring this maybe?
+                /*
+                // Ignore "no futa" addon?
                 if (addon === 'No_Futa') {
                   return false;
                 }
+                 */
                 locals.addonsToPatch.push(addon);
                 return true;
               } else {
