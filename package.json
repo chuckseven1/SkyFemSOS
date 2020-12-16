@@ -2,7 +2,7 @@
   "name": "skyfemsos",
   "productName": "SkyFemSoS",
   "description": "zEdit UPF patcher to convert SoS addons to SkyFem",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "chuck",
   "copyright": "© 2020, chuck",
   "repository": "https://github.com/chuckseven1/SkyFemSoS",
